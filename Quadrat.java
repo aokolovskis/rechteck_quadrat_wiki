@@ -1,0 +1,1 @@
+public class Quadrat extends Rechteck {    // Einmalige Berechnung der Wurzel aus 2    static final double WURZEL2 = Math.sqrt(2);    public Quadrat(int laenge) {        // Aufruf des Konstruktors der Basisklasse        super(laenge, laenge);    }    @Override    public double getDiagonale()    {        return WURZEL2 * getLaenge();    }}

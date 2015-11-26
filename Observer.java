@@ -1,0 +1,1 @@
+interface Observer { public void update(Observable aObservable);}
